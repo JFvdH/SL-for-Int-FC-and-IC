@@ -1,6 +1,6 @@
 # Supervised Learning for Integrated Forecasting and Inventory Control: An Application to Lost Sales, Perishable Goods and Dual Sourcing
 
-This repository contains the code used for the numerical experiments with stationary demand for the "Supervised Learning for Integrated Forecasting and Inventory Control: An Application to Lost Sales, Perishable Goods and Dual Sourcing" paper. Each folder contains code for the inventory management problem it is named after. The following files are included in each of the folders:
+This repository contains the code used for the numerical experiments with stationary demand in the "Supervised Learning for Integrated Forecasting and Inventory Control: An Application to Lost Sales, Perishable Goods and Dual Sourcing" paper. Each folder contains code for the inventory management problem it is named after. The following files are included in each of the folders:
 - 'main.py' can be used to change parameter settings and start the experiments.
 - 'hyperparams.py' contains code used for hyperparameter optimization.
 - 'generateData.py' is used to generate training data according to the specified distribution.

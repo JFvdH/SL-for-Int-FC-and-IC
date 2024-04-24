@@ -1,6 +1,6 @@
 # Supervised Learning for Integrated Forecasting and Inventory Control
 
-This repository contains the code used for the numerical experiments in the "Supervised Learning for Integrated Forecasting and Inventory Control" paper. Each folder contains code for the inventory management problem it is named after. 
+This repository contains the code used for the numerical experiments in the "Supervised Learning for Integrated Forecasting and Inventory Control" paper. A preprint of this paper can be found [here](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4406486). Each folder contains code for the inventory management problem it is named after. 
 
 The folders 'Stationary dual sourcing', 'Stationary lost sales' and 'Stationary perishable goods' contain the code used for the experiments under stationary demand, as described in Section 6 of the paper. Each of these folders contains the following files:
 - 'main.py' can be used to change parameter settings and start the experiments.

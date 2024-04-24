@@ -2,7 +2,7 @@
 import numpy as np
 import pandas as pd
 
-# Function used to import and preprocess data
+# Function used to generate train/validation/test time series data
 def createData(n_timeseries = 1000, length_timeseries = 365, days_features = 14, frequency = 2) :
         
     # Creating the time series: Noise factor and constant

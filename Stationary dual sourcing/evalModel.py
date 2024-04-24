@@ -85,8 +85,8 @@ def evalModel(model_exp, model_reg, params, indep = False, verbose = False) :
         print("Backorder costs:\t\t\t", round(cost_underage, 4))
         print("Holding costs: \t\t\t\t", round(cost_holding, 4))
         print("Expediting order costs: \t", round(cost_order_exp, 4))
-        print("Regular order costs: \t\t", round(cost_order_reg,4))
-        print("Total costs: \t\t\t\t", round(total_costs,4))
+        print("Regular order costs: \t\t", round(cost_order_reg, 4))
+        print("Total costs: \t\t\t\t", round(total_costs, 4))
     
     # Return the average total costs
     return total_costs

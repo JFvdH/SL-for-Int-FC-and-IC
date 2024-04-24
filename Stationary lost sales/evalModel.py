@@ -25,7 +25,6 @@ def evalModel(model, params, verbose = False) :
         demand = np.random.poisson(mean, size=(n_runs, run_size+warmup))
     elif distribution == 'geometric' : 
         demand = np.random.geometric(1/(mean+1), size=(n_runs, run_size+warmup))
-        #demand = np.random.geometric(1/mean, size=(n_runs, run_size+warmup))
     else :
         raise ValueError("The following distribution is not recognized:", distribution)
     inv = np.random.randint(0, 2*mean+1, size=n_runs)
@@ -71,7 +70,7 @@ def evalModel(model, params, verbose = False) :
         # Print the average cost per time unit
         print("Holding costs: \t\t\t", round(cost_holding, 4))
         print("Penalty costs:\t\t\t", round(cost_underage, 4))
-        print("Total costs: \t\t\t", round(total_costs,4))
+        print("Total costs: \t\t\t", round(total_costs, 4))
     
     # Return the average total costs
     return total_costs

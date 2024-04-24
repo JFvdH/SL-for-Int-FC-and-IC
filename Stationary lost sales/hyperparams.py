@@ -47,7 +47,7 @@ class Objective(object):
             print("Inv. multiplier: \t", hyperparams["inv_multiplier"])   
             print("Nr. of estimators: \t", hyperparams["n_estimators"])   
             print("Nr. of leaves: \t\t", hyperparams["num_leaves"])
-            print("Learning rate: \t\t", round(hyperparams["learning_rate"],4)) 
+            print("Learning rate: \t\t", round(hyperparams["learning_rate"], 4)) 
         n_duplicates = self.params["n_duplicates"] #
         results = Parallel(n_jobs=n_duplicates)(delayed(evalHypers)(self.genFunc, self.evalFunc,
                                                                     self.params, hyperparams

@@ -102,8 +102,8 @@ def evalModel(model, params, verbose = False) :
         print("Cost of lost sales:\t", round(cost_lostsales, 4))
         print("Holding cost: \t\t", round(cost_holding, 4))
         print("Perishing cost: \t", round(cost_perish, 4))
-        print("Order costs: \t\t", round(cost_order,4))
-        print("Total costs: \t\t", round(total_costs,4))
+        print("Order costs: \t\t", round(cost_order, 4))
+        print("Total costs: \t\t", round(total_costs, 4))
     
     # Return the average total costs
     return total_costs
